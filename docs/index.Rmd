@@ -1,7 +1,7 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Police Brutality in the United States"
+author: Kevin Truong, Alexis Nguyen, Greta Carsten
+date: 11/14/2022
 output: html_document
 ---
 
@@ -42,3 +42,6 @@ plot(pressure)
 `''
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+DYNAMIC PARAGRAPH
+In the datasets we've gathered for our project we've gotten information from number of people shot to death by the police in the United States from 2017 to 2022, specifically by race. Another source by the same source, but by month. Lasty, we have a source from the Washington Post about 7902 people have been shot and killed by police since Jan 1, 2015. In our project we've categorized  
