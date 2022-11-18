@@ -5,13 +5,11 @@ In our project, we use the following data files and Application Programming Inte
 ## Data files (TODO: Update/delete for your PROJECT)
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[example.cvs](./example.csv) | This file contains temperature data. (See report for details.)
-|[another-file](./filename2.csv) | Description ... 
+|Fatal Police Shootings (https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/fatal-police-shootings-data.csv) | This file contains information of people killed by the police, and provides various columns of information regarding who was killed,the context of the killing, and more. 
+|People Shot by Month (https://raw.githubusercontent.com/info201b-au2022/project-gretacarsten18/main/data/statistic_id585159_people-shot-to-death-by-us-police-2017-2022-by-month%20(2).%20data%20set%201.csv) | This file contains information regarding how many people were shot each month for the past five years.  
+|People Shot by Race (https://raw.githubusercontent.com/info201b-au2022/project-gretacarsten18/main/data/statistic_id585152_people-shot-to-death-by-us-police-2017-2022-by-race.csv") | This file contains how many people were shot by the police each year by race.  
 
 ## Application Programming Interfaces (API) (TODO: Update/delete for your PROJECT)
-
-* **New York Times Books API**. The _New York Times_ provides data for Best
-Sellers lists and the books that have been reviewed in the New York Times. An overview of the API that we use in our project is available here: [Books API](https://developer.nytimes.com/docs/books-product/1/overview). For more about developing apps with New York Times data see: [NYTimes Developers](https://developer.nytimes.com/).
 
 # Developer notes: About the `/data` Directory (TODO: Read and delete this section)
 
