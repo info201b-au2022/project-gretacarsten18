@@ -7,7 +7,7 @@ hist_2021 <- Data.Table.1$X.6
 
      
 plot(hist_2021, col = 'red', xlim = c(4,17),
-     ylim = c(5,150), main = "Gun Violence over the years (2017-2021)", 
+     ylim = c(5,150), main = "Gun Violence over the years (2017-2021) from police", 
      xlab = "Months: Jan = 5 to Dec = 16",
      ylab = "Number of victims from gun violence")
 
