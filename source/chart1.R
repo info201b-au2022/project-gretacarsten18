@@ -1,9 +1,9 @@
 library(ggplot2)
-hist_2017 <- Data.Table.1$X.2
-hist_2018 <- Data.Table.1$X.3
-hist_2019 <- Data.Table.1$X.4
-hist_2020 <- Data.Table.1$X.5
-hist_2021 <- Data.Table.1$X.6
+hist_2017 <- Data.Table.1$V2
+hist_2018 <- Data.Table.1$V3
+hist_2019 <- Data.Table.1$V4
+hist_2020 <- Data.Table.1$V5
+hist_2021 <- Data.Table.1$V6
 
      
 plot(hist_2021, col = 'red', xlim = c(4,17),
