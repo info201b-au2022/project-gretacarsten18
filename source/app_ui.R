@@ -49,6 +49,7 @@ interactive_page_2 <- tabPanel(
       )
     ),
     mainPanel(
+      plotOutput(outputId = "number_victims_month"),
       plotOutput("bar")
     )
   )
@@ -77,7 +78,7 @@ interactive_page_4 <- tabPanel(
   h2("Discsussion"),
   p("...."),
   h2("Conclusion"),
-  p("....")
+  p("In conclusion, with the ongoing trends shown from our charts and the data we anazlyed through code, we can finalize that police brutality is an cruel act of inequality towards society and as the years go on the numbers of victims to gun violence have been relatively the same even with the advocacy from the people. With ongoing media coverage of racial and systemtic issues seen in law enforcement, you can see in the data the numbers slowly start to decline but still stay high in the four hundred to five hundred levels. ")
 )
 
 interactive_page_5 <- tabPanel(
