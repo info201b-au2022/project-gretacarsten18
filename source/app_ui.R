@@ -1,20 +1,27 @@
 library(shiny)
 
 # Source files
-source("chart2.R")
+source("chart1.R")
 
 
 
   
   
 interactive_page_1 <- tabPanel(
- "Average victims in 2017",
-  plotOutput("bar"),
-  selectInput("Month",
-              label = "Month",
-              choices = c("January", "February", "March", "April", "May", "June", "July", "August", "October",
+ "Average victims in 2017-2022",
+ sidebarLayout(
+  sidebarPanel(
+    selectInput("Month",
+                inputId = "People",
+                label = "Month",
+                choices = c("January", "February", "March", "April", "May", "June", "July", "August", "October",
                           "September", "November", "December"),
               
+    )
+  ),
+  mainPanel(
+    plotOutput("bar"),
+    )
   )
 )
 

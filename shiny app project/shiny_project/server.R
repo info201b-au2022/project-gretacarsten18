@@ -3,7 +3,8 @@ library(shiny)
 
 server <- function(input, output) {
   people_shot_by_race <- reactive({
-    people_shot_by_race <- people_shot_by_race %>% filter(People.shot.to.death.by.U.S..police.2017.2022..by.race %in% input$people_shot_by_race)})
+    people_shot_by_race <- people_shot_by_race %>% 
+      filter(People.shot.to.death.by.U.S..police.2017.2022..by.race %in% input$people_shot_by_race)})
   filter("2018" %in% observe(input$people_shot_by_race))
   
   output$distPie <- renderPlot ({
